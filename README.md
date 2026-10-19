@@ -8,14 +8,14 @@ Runs an open-weight Gemma model through [Ollama](https://ollama.com). No API key
 
 ```bash
 # 1. Install Ollama from https://ollama.com, then:
-ollama pull gemma3:4b
+ollama pull gemma4:e4b
 
 # 2. Install and start the app
 pip install -r requirements.txt
 python app.py
 ```
 
-Open the local URL Gradio prints. Use a bigger model with `MODEL=gemma3:12b python app.py`, or point at another Ollama host with `OLLAMA_URL`.
+Open the local URL Gradio prints. Use a bigger model with `MODEL=gemma4:12b python app.py`, or point at another Ollama host with `OLLAMA_URL`.
 
 ## Limits
 
